@@ -144,7 +144,7 @@ func makeInstagramStoryMedia(matches []notify.MatchInfo) {
 	}
 
 	// Salva o HTML em um arquivo temporário
-	htmlPath := fmt.Sprintf("test/match-%s-rendered.html", strings.Join(matchNoList, "_"))
+	htmlPath := fmt.Sprintf("output/match-%s-rendered.html", strings.Join(matchNoList, "_"))
 	err = os.WriteFile(htmlPath, htmlBuffer.Bytes(), 0644)
 	if err != nil {
 		log.Fatalf("Erro ao salvar HTML: %v", err)
