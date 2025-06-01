@@ -75,6 +75,13 @@ func teamHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	// Serve arquivos estáticos (imagens, CSS, JS etc)
+	fs := http.FileServer(http.Dir("static"))
+	http.Handle("/static/", http.StripPrefix("/static/", fs))
+
+	ft := http.FileServer(http.Dir("test"))
+	http.Handle("/test/", http.StripPrefix("/test/", ft))
+
 	http.HandleFunc("/team", teamHandler)
 
 	log.Println("Servidor ouvindo na porta 8080...")

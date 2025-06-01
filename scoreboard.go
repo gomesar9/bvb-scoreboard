@@ -7,7 +7,7 @@ import (
 	"html/template"
 	"log"
 	"os"
-	"path/filepath"
+	_ "path/filepath"
 	"strconv"
 	"strings"
 	"time"
@@ -157,12 +157,12 @@ func makeInstagramStoryMedia(matches []notify.MatchInfo) {
 	defer cancel()
 
 	var buf []byte
-	absPath, err := filepath.Abs(htmlPath)
-	if err != nil {
-		log.Fatalf("Erro ao obter caminho absoluto: %v", err)
-	}
+	// absPath, err := filepath.Abs(htmlPath)
+	// if err != nil {
+	// 	log.Fatalf("Erro ao obter caminho absoluto: %v", err)
+	// }
 
-	fullPath := "file://" + absPath
+	fullPath := "http://localhost:8080/" + htmlPath
 
 	// Executa com timeout para segurança
 	ctx, cancel = context.WithTimeout(ctx, 30*time.Second)
