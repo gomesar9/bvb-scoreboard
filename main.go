@@ -11,6 +11,7 @@ import (
 	"time"
 
 	"github.com/gomesar9/bvb-core/public/notify"
+	"github.com/gomesar9/bvb-scoreboard/internal/adapter/html"
 )
 
 func dumpData(data []notify.MatchInfo) {
@@ -67,7 +68,7 @@ func teamHandler(w http.ResponseWriter, r *http.Request) {
 
 	go func() {
 		// dumpData(matchesInfo)
-		makeInstagramStoryMedia(matchesInfo)
+		html.MakeInstagramStoryMedia(matchesInfo)
 	}()
 
 	w.WriteHeader(http.StatusOK)

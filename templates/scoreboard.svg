@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="90mm"
+   height="160mm"
+   viewBox="0 0 340.15748 604.72443"
+   version="1.1"
+   id="svg5"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient18945">
+      <stop
+         style="stop-color:#c8ab37;stop-opacity:1;"
+         offset="0"
+         id="stop18941" />
+      <stop
+         style="stop-color:#c8ab37;stop-opacity:0;"
+         offset="1"
+         id="stop18943" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter7631"
+       x="-9.1226221e-05"
+       y="-0.00017528772"
+       width="1.0001825"
+       height="1.0003506">
+      <feGaussianBlur
+         stdDeviation="0.010471703"
+         id="feGaussianBlur7633" />
+    </filter>
+    <linearGradient
+       xlink:href="#linearGradient18945"
+       id="linearGradient18947"
+       x1="180.98375"
+       y1="109.78514"
+       x2="362.83527"
+       y2="-33.274284"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient18947);stroke-width:0.441;fill-opacity:1;filter:url(#filter7631);stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect31"
+       width="275.49191"
+       height="143.37619"
+       x="30.213535"
+       y="21.509485" />
+    <rect
+       style="fill:#ffffff"
+       id="rect33"
+       width="181.75356"
+       height="46.933834"
+       x="437.54434"
+       y="196.18787" />
+    <text
+       xml:space="preserve"
+       style="font-size:21.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px"
+       x="62.333084"
+       y="95.552055"
+       id="text17003"><tspan
+         id="tspan17001"
+         x="62.333084"
+         y="95.552055">team1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px"
+       x="204.75085"
+       y="95.833305"
+       id="text17003-6"><tspan
+         id="tspan17001-7"
+         x="204.75085"
+         y="95.833305">team3</tspan></text>
+  </g>
+</svg>

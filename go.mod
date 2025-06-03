@@ -1,4 +1,4 @@
-module placar-gen
+module github.com/gomesar9/bvb-scoreboard
 
 go 1.23.3
 
