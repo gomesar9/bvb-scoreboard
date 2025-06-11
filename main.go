@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/gomesar9/bvb-core/public/notify"
-	"github.com/gomesar9/bvb-scoreboard/internal/adapter/html"
+	"github.com/gomesar9/bvb-scoreboard/pkg/adapter/html"
 )
 
 func dumpData(data []notify.MatchInfo) {
